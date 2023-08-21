@@ -19,7 +19,7 @@ const makeRequest = async (
     mode: "cors",
     credentials: "include",
     headers: {
-      "Access-Control-Allow-Origin": "http://localhost:8000/",
+      "Access-Control-Allow-Origin": "https://dev.protoproto.studio/",
       "Content-Type": "application/json",
       Accept: "application/json",
       "X-Requested-With": "XMLHttpRequest",
