@@ -113,7 +113,13 @@ module.exports = {
         // },
       },
     },
-    `gatsby-source-craft`,
+    {
+      resolve: `gatsby-source-craft`,
+      options: {
+        craftGqlUrl: "https://cms.protoproto.studio/api", // Update with your Craft CMS GraphQL URL
+        // Other plugin options...
+      },
+    },
     `gatsby-plugin-image`,
 
     {
