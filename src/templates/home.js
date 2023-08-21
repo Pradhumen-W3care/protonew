@@ -288,7 +288,7 @@ const HomePage = ({ data }) => {
     >
       <SEO title="" />
 
-      <div className="home-page-paragraph">
+      <div className="home-page-paragraph new">
         <div className="container">
           <p className="text-center leading-snug section-rte 2xl:text-2.5xl xl:text-2xl lg:text-xl text-xl lg:leading-1.8 xl:leading-2.2 2xl:leading-2.2">We started with an idea that c<span style={{fontFamily: 'Proto4'}}>OO</span>lshi<span style={{fontFamily: 'Proto2'}}>T</span> could also be cool for the <span  style={{fontFamily: 'Proto1'}}>p</span>e<span style={{fontFamily: 'Proto6'}}>o</span>ple who make it-Now we’re running design colabs with makers from ar<span style={{fontFamily: 'Proto2'}}>O</span>und <span style={{fontFamily: 'Proto6'}}>t</span>he w<span style={{fontFamily: 'Proto5'}}>O</span><span style={{fontFamily: 'Proto1'}}>R</span>ld</p>
         </div>
