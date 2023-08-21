@@ -1,6 +1,7 @@
 require("dotenv").config({
-  path: `.env`,
+  path: `.env.${process.env.NODE_ENV}`,
 })
+
 
 module.exports = {
   siteMetadata: {
@@ -113,13 +114,7 @@ module.exports = {
         // },
       },
     },
-    {
-      resolve: `gatsby-source-craft`,
-      options: {
-        craftGqlUrl: "https://cms.protoproto.studio/api", // Update with your Craft CMS GraphQL URL
-        // Other plugin options...
-      },
-    },
+    `gatsby-source-craft`,
     `gatsby-plugin-image`,
 
     {
